@@ -1,0 +1,25 @@
+{
+"AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+         "s3Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "PriyankaPipelinebucket",
+                "PublicAccessBlockConfiguration":
+                {
+                            "BlockPublicAcls" : "False",
+                             "BlockPublicPolicy" : "False",
+                             "IgnorePublicAcls" : "False",
+                             "RestrictPublicBuckets" : "False"
+}
+
+                
+            }
+        }
+        
+
+    
+   
+
+    }
+}
