@@ -4,7 +4,7 @@
          "s3Bucket": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-                "BucketName": "priyankapipelinebucket",
+                "BucketName": "priyankapipelinebucketwith",
                 "AccessControl" : "PublicRead",
                 "PublicAccessBlockConfiguration":
                 {
